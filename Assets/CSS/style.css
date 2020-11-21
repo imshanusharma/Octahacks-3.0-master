@@ -176,7 +176,7 @@ h4{
 
 body{
     animation-name: opac;
-    animation-duration: 5s;
+    animation-duration: 2s;
 }
 @keyframes opac{
     0%{
