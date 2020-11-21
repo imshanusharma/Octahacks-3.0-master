@@ -5,6 +5,6 @@ This Project is based on solving issues faced by students for previous years not
 ## Contributors
 
 Suhit Gupta (Team Lead)
-Tanishq Sehra (Team Member)
-Bhavuk Dhawan (Team Member)
-Ujjwal Sharma (Team Member)
+Tanishq Sehra (Team Member) \
+Bhavuk Dhawan (Team Member) \
+Ujjwal Sharma (Team Member) \
