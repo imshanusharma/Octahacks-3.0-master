@@ -43,9 +43,8 @@ select{
     animation-duration: 3s;
 }
 #a{
-    font-size: 35px;
-    margin-top: 50px;
-    color: white;
+    
+        color: white;
 }
 @keyframes swing{
     0%{
