@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Assets\CSS\style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        body{
+            background-color: #fca311;
+        }
+        h1{
+            color: black;
+            font-size: 65px;
+            text-align: center;
+        }
+        div.hd{
+            background-color: white;
+            width: 100%;
+            height: 80px;
+            margin-top: -10px;
+            border-style: dashed;
+            border: 2px solid black;
+            animation-name: right;
+            animation-duration: 3s;
+            
+        }
+        div{
+          background-color: white;
+        }
+        a:hover{
+          color: white;
+
+        }
+        .wrapper {
+  background-color: #fca311;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 300px;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  position: absolute;
+  top: 50%;
+  width: 300px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(255, 250, 250);
+  font-family: 'Poppins';
+  font-size: 18px;
+  height: 50px;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+  padding: 10px 0px;
+  position: relative;
+  top: 50%;
+  width: 200px;
+  margin-left: -600px;
+  width: 140%;
+  font-size: 30px;
+  color: black;
+}
+
+  .input:focus {
+    outline: none;   
+  }
+
+
+input::-webkit-input-placeholder {
+  color: rgb(0, 0, 0);
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #fca311;
+}
+
+.input:focus+.underline {
+  transform: scale(1);
+}
+
+.underline {
+  background-color: dodgerblue;
+  display: inline-block;
+  height: 3px;
+  left: 50px;
+  margin-top: -4px;
+  position: absolute;
+  top: 185px;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  width: 418px;
+  margin-left: -500px;
+}
+.button1 {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 2cm;
+}  
+.form{
+    width: 500px;
+    height: 500px;
+    margin-left: 920px;
+    margin-top: -470px;
+    border: 3px solid black;;
+ 
+}
+.img-1{
+    width: 6%;
+    height: 6%;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-top: 4px;
+}
+.nav{
+    position: relative fixed;
+
+}
+
+ul{
+    color: #E63946;
+    list-style: none;
+    font-weight: bolder;
+    font-size: 27px;
+    display: flex;
+    margin-left: 500px;
+    margin-right: -100px;
+    margin-top: 18px;
+}
+.li1{
+    margin-left: 100px;
+    font-family: poppins;
+    text-shadow: 1px 1px rgb(241, 206, 3);
+} 
+.hh{
+  animation-name: right;
+  animation-duration: 1s;
+}
+@keyframes right{
+    0%{
+        transform: skewX(20deg);
+    }
+   
+    100%{
+        transform: translateY(10px);
+    }
+}
+::placeholder{
+  color: white !important;
+}
+    </style>    
+</head>
+
+    <body>
+      <header class="head">
+        <navigation class="nav">
+            <img src="images\logo.png" alt="image" class="img-1">
+            <ul>
+               <a href="./index.html"> <li class="li1">CUpedia</li></a>
+               <a href="#"><li class="li1">Contact Us</li></a>
+               <a href="team.html"> <li class="li1">About Us</li></a>
+            </ul>
+        </navigation>
+    </header>
+        <div class="hd"><h1 class="hh">Contact Us</h1></div>
+        <div class="wrapper">
+            <input class="input" placeholder="NAME" type="text" >
+            <span class="underline"></span>
+        </div>
+        <div style="margin-top: 10px;" class="wrapper">
+            <input class="input" placeholder="YOUR MESSAGE" type="text" >
+            <span class="underline"></span>
+        </div>
+        <a class="btn" href="mailto:elite4@gmail.com"><div style="width: 150px; margin-top: 450px;margin-left: 260px;height: 60px;font-size: 20px;" class="button1">Mail Us</div></a>
+        <div class="form"><h1 style="font-size: 45px;">Institution Details</h1>
+        <img style="width: 50%;margin-left: 115px; margin-top: 30px;" src="images\Chitkara-University-logo.png">
+        <h3 style="font-size: 25px;margin-left: 100px;margin-top: 50px;">Chandigarh-Patiala Highway<br>Punjab 140-401</h3>
+        </div>
+    
+      </body>
+</html>

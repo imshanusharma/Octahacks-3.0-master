@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        .background{
+            overflow: hidden;
+            margin-top: -22px;   
+        }
+        .img-1{
+    width: 6%;
+    height: 6%;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-top: 4px;
+}
+.nav{
+    position: relative fixed;
+
+}
+
+.ul1{
+    color: #E63946;
+    list-style: none;
+    font-weight: bolder;
+    font-size: 27px;
+    display: flex;
+    margin-left: 500px;
+    margin-right: -100px;
+    margin-top: 18px;
+}
+.li1{
+    margin-left: 100px;
+    font-family: poppins;
+    text-shadow: 1px 1px rgb(241, 206, 3);
+}
+.one{
+    font-size: 95px;
+    margin-top: -400px;
+    margin-left: 50px;
+    color: white;
+    -webkit-text-stroke: 1.5px rgb(241, 45, 45);
+}
+.two{
+    font-size: 95px;
+    margin-top: -110px;
+    margin-left: 50px;
+    color:white;
+    
+    
+}
+.three{
+    font-size: 28px;
+    margin-top: -0px;
+    margin-left: 50px;
+    color: white;
+}
+.sub-wise{
+    margin-top: 190px;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.h2{
+    font-size: 30px;
+    margin-left: 370px;
+    margin-top: -67px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 60px;
+    margin-left: 150px;
+    margin-top: 200px;
+    color: #fca311;
+
+
+}
+.notes{
+    font-size: 28px;
+    margin-left: 200px;
+    margin-top: 20px;
+    display: block;
+    
+}
+.button1 {
+  background-color: #E63946;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 320px;
+  margin-top: 20px;
+  border-radius: 2cm;
+}
+.books{
+    margin-left: 900px;
+    margin-top: -320px;
+    width: 32%;
+}
+.doc{
+    width: 17%;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+h4{
+    float: right;
+    margin-right: 50px;
+    font-size: 30px;
+    margin-top: -42px;
+}
+
+.sec{
+    width: 100%;
+    height: 30vh;
+    background-image: url('../images/design.png');
+    padding: 20px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.heading2,.heading1{
+    margin: 10px;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+.sec>.btn{
+    padding: 10px 20px;
+    background-color: #E63946;
+    border-radius: 20px;
+    color: #ffffff;
+}
+.below-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.heading1{
+    color: #000000;
+}
+
+.foot{
+    margin-top: 40px;
+    background-color: #E63946;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.foot1-item{
+    cursor: default;
+    font-weight: 500;
+}
+.footer-li{
+    cursor: pointer;
+}
+.foot2{
+    text-align: right;
+    width: 30%;
+}
+.foothead{
+    font-size: 2.4rem;
+}
+.foote{
+    text-align: center;
+    padding: 8px;
+    background-color: #E63946;
+    color: #ffffff;
+}
+
+body{
+    animation-name: opac;
+    animation-duration: 5s;
+}
+@keyframes opac{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.one{
+    animation-name: one;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+@keyframes one{
+    0% {
+        transform: translateX(-100px); }
+      80% {
+        transform: translateY(30px); }
+      100% {
+        transform: translate(-10px); }
+}
+.three{
+    animation-name: th;
+    animation-delay: 4s;
+    animation-duration: 3s;
+}
+@keyframes th{
+    0%{
+        transform: translateX(100px);
+    }
+    80%{
+        transform: translateX(-30px);
+    }
+    100%{
+        transform: translateX(10px);
+    }
+}
+@media only screen and(max-width: 1434px)
+{
+    .head{
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+    }
+    .background{
+        width: 100%;
+        overflow-y: hidden;
+    }
+    .footer{
+        width: 100%;
+    }
+}
